@@ -72,7 +72,7 @@ while turns > 0:
 
         else:
             print(" _ ", end=" ")
-            fail += 1
+            fail = fail + 1
 
     if fail == 0:
         print("\n You won")
@@ -80,19 +80,18 @@ while turns > 0:
         break
 
     guess = input(". \t Guess characters: ")
-    guess = guess.lower()       #Changing the case of the letter inputted by the user to lower
+    guess = guess.lower()       #Changing the case of the letter inputted by the user to lower for easy comparison
     guess_character += guess
 
     if guess not in word:
         turns = turns - 1
-
 
         print("Wrong guess")
 
     # Number of turns left
         print("You have", + turns, "more guesses. Keep trying!")
 
-    #When the turns are equal to zero
+    #When the number of turns become zero
         if turns == 0:
             print("You have lost the game \n")
             print("The word is :", word.capitalize())
