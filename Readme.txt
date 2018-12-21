@@ -1,0 +1,10 @@
+Instructions to Run the Code:
+
+In all, 4 files have been uploaded namely, “Project.py”, “Brands.txt”, “Countries.txt” and “Movies.txt”.
+The three text files consist of list of the words that are used in the code.
+The text files need to be kept in the same folder as the “.py” file.
+Also, while running the code, there are certain places where the delay has been used to make the code more interactive.
+Thus, do wait for the program to respond.
+Another instruction would be to choose the category correctly as given by the program. If not, the program is coded to take care of this situation as well.
+The program has been coded keeping in mind that the user can be anyone, thus keeping it simple and crisp.
+Comments have been added to the program to make it understandable.
