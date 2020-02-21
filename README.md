@@ -1,2 +1,2 @@
-# Final_Project
+# Basic Game
 A game of Hangman
